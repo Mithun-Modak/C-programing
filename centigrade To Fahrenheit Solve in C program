@@ -1,0 +1,23 @@
+// Fahrenheit To centigrade
+#include<stdio.h>
+int main()
+{
+        float Fahrenheit,centigrade;
+        printf("Enter the Fahrenheit: ");
+        scanf("%f",&Fahrenheit);
+        centigrade=(Fahrenheit - 32)/1.8; // Formula 
+        printf("The Centigrade is : %f",centigrade);
+        return 0;
+}
+//--------------
+// centigrade To Fahrenheit
+#include<stdio.h>
+int main()
+{
+        float Fahrenheit,centigrade;
+        printf("Enter the centigrade: ");
+        scanf("%f",&centigrade);
+        Fahrenheit=(centigrade *1.8)+32;//Formula  
+        printf("The Centigrade is : %f",Fahrenheit);
+        return 0;
+}
