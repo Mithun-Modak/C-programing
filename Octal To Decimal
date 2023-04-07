@@ -1,0 +1,12 @@
+//-------------/*octal To Decimal*/
+
+
+#include<stdio.h>
+int main()
+{
+    int number;
+    printf("Enter ocatal number : ");
+    scanf("%o",&number);
+    printf("Decimal number : %d\n",number);
+return 0;
+}
