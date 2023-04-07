@@ -1,0 +1,34 @@
+
+//-------------/*Decimal To Hexa-decimal*/
+#include<stdio.h>
+int main()
+
+{
+    int number;
+    printf("Enter a decimal: ");
+    scanf("%d",&number);
+    printf("The Hexa-decimal : %x\n",number);
+
+ return 0;
+}
+
+
+//-------------/*Hexa-decimal To Decimal */
+#include<stdio.h>
+int main()
+
+{
+    int number;
+    printf("Enter a decimal: ");
+    scanf("%d",&number);
+    printf("The Hexa-decimal : %x\n",number);
+
+return 0;
+}
+
+
+
+
+
+
+
