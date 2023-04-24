@@ -1,0 +1,43 @@
+#include<stdio.h>
+int main()
+{
+
+        float n,j;
+        char op;
+        printf("Enter one operator (+,-,*,/) : ");
+        scanf("%c",&op);
+
+        printf("Enter Two number : ");
+        scanf("%f %f ",&n,&j);
+        switch (op)
+        {
+        case '+': {
+            printf("%f + %f = %f\n", n,j,n+j);
+            break;
+        }
+
+        case '-': {
+            printf("%f - %f = %f\n", n,j,n-j);
+            break;
+        }
+
+        case '*': {
+            printf("%f * %f = %f\n", n,j,n*j);
+            break;
+        }
+
+        case '/': {
+            printf("%f / %f = %f\n", n,j,n/j);
+            break;
+        }
+
+  default:
+        printf("invalid operator or number ");
+
+        }
+
+
+
+
+
+}
