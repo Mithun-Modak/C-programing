@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+
+        int num1,num2,n1,n2,r,gcd,lcm;
+        printf("Enter two numbers :  ");
+        scanf("%d %d",&num1,&num2);
+
+        n1=num1;
+        n2=num2;
+        while(n2!=0)
+        {
+            r=n1%n2;
+            n1=n2;
+            n2=r;
+
+
+
+        }
+        gcd = n1;
+        lcm = num1*num2/gcd;//it is Lcm formula ;
+        printf("The Gcd : %d\n ",gcd);
+        printf("The lcm: %d\n",lcm);
+
+// LCM meaning  Least Common Multiple
+//GCD meaning greatest common divisor
+
+
+
+
+
+}
