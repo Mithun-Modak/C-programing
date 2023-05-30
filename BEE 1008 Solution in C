@@ -11,7 +11,7 @@ int main()
     scanf("%d ",&n);
     scanf("%d %f",&b,&k);
     sallary= b*k;
-    printf("Number : %d\n",n);-
+    printf("Number = %d\n",n);-
     printf("SALARY = U$ %0.2f\n", sallary);
 
 
