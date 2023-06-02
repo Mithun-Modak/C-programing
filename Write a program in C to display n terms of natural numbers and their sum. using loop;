@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+
+
+        int i, j,sum=0;
+        printf("Test Data = ");
+        scanf("%d",&j);
+        for(i=1; i<=j;
+        i++)
+        {
+            printf("%d\n",i);
+            sum= sum+i;
+        }
+
+    printf("the sum is %d\n",sum);
+
+
+
+
+
+}
