@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+
+
+    int a[100],b,i;
+    printf("enter Fabbonci number : ");
+    scanf("%d",&b);
+
+    a[0]=0;
+    a[1]=1;
+    for(i=2;i<b;i++)
+    {
+        a[i] = a[i-1] + a[i-2];
+
+    }
+    printf("\n");
+
+
+    for(i=0; i<b;i++)
+    {
+        printf("%d",a[i]);
+
+    }
+
+
+}
