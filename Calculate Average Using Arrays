@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+
+
+    int a[100],i,n,sum=0;
+    printf("how many number's you want : ");
+    scanf("%d",&n);
+    printf("enter n numbers  ");
+
+
+    for(i=0; i<=n; i++)
+    {
+        scanf("%d\n",&a[i]);
+
+
+    }
+
+    for(i=0; i<=5; i++)
+    {
+
+        sum= sum+a[i];  
+
+    }
+
+
+    printf("the sum is : %d\n",sum);
+    printf("the avg is : %f\n",(float)sum/n);
+
+/*    Life  means Chill */
+
+}
+
